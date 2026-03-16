@@ -1,8 +1,7 @@
--- Key system
 local CorrectKey = "X9PqR47UvLmZaBtKsQwE"
 
 if getgenv().Key ~= CorrectKey then
-    game.Players.LocalPlayer:Kick("Wrong Key!")
+    game.Players.LocalPlayer:Kick("X9PqR47UvLmZaBtKsQwE")
 end
 
 -- UI Library
