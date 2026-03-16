@@ -1,7 +1,7 @@
 local CorrectKey = "X9PqR47UvLmZaBtKsQwE"
 
 if getgenv().Key ~= CorrectKey then
-    game.Players.LocalPlayer:Kick("X9PqR47UvLmZaBtKsQwE")
+    game.Players.LocalPlayer:Kick("Wrong Key")
 end
 
 -- UI Library
@@ -16,7 +16,7 @@ local Window = Library:CreateWindow({
    }
 })
 
-local MainTab = Window:CreateTab("Main")
+local MainTab = Window:CreateTab("Main", 4483362458)
 
 MainTab:CreateButton({
    Name = "Test Script",
